@@ -4,11 +4,15 @@
   "description": "expres first steps",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js",
+    "http": "nodemon src/http.js"
   },
   "keywords": [
     "expres"
   ],
   "author": "Laura",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
